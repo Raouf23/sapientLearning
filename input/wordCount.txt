@@ -1,0 +1,5 @@
+By the way, these examples may blur the line between Scala and Spark for you.
+These examples highlight Scala and not necessarily Spark.
+In a sense, the only Spark specific portion of this code example is the use of parallelize from a SparkContext.
+When calling parallelize, the elements of the collection are copied to form a distributed dataset that can be operated on in parallel.  
+Being able to operate in parallel is a Spark feature
